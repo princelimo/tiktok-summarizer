@@ -1,0 +1,14 @@
+﻿# Environnements et secrets
+venv/
+.venv/
+.env
+__pycache__/
+*.pyc
+
+# Cursor / IDE
+.cursor/
+cursor/
+
+# OS
+.DS_Store
+Thumbs.db

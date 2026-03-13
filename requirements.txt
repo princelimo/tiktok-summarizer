@@ -1,0 +1,15 @@
+# API web
+fastapi>=0.109.0,<0.115.0
+uvicorn[standard]>=0.27.0,<0.32.0
+
+# Extraction vidéo / sous-titres
+yt-dlp>=2024.1.0
+
+# API Google Gemini
+google-generativeai>=0.8.0
+
+# Chargement du fichier .env en local
+python-dotenv>=1.0.0
+
+# Validation et configuration
+pydantic>=2.0.0,<3.0.0

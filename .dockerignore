@@ -1,0 +1,10 @@
+# Éviter de copier ces éléments dans l'image Docker
+.env
+.venv
+venv
+__pycache__
+*.pyc
+.git
+.gitignore
+*.md
+.dockerignore

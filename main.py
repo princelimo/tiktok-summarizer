@@ -117,7 +117,7 @@ def resumer_avec_gemini(transcript: str) -> SummaryResponse:
         )
 
     genai.configure(api_key=api_key)
-    model = genai.GenerativeModel("gemini-flash-lite-latest")
+    model = genai.GenerativeModel("gemini-3-flash-preview")
 
     prompt = f"""Tu es un assistant qui résume des transcriptions de vidéos TikTok.
 Résume la transcription suivante en français de manière structurée.
